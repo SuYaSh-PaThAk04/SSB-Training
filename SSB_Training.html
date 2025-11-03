@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centurion Defence Academy | SSB Online Coaching</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      color: #222;
+      background: url('./WhatsApp\ Image\ 2025-11-03\ at\ 18.38.39_b2fbc188.jpg') no-repeat center center fixed;
+      background-size: cover;
+      min-height: 100vh;
+    }
+    header {
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #ffae00;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1.1em;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: #ed1c24;
+    }
+    .container {
+      max-width: 860px;
+      margin: 60px auto 20px auto;
+      background: rgba(255,255,255,0.92);
+      border-radius: 15px;
+      padding: 40px 32px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    }
+    .title {
+      font-size: 2.7em;
+      font-weight: 700;
+      color: #0262ac;
+      margin-bottom: 12px;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+    .subtitle {
+      font-size: 1.35em;
+      margin: 10px 0 26px 0;
+      text-align: center;
+      color: #333;
+    }
+    .buy-btn {
+      display: block;
+      width: 100%;
+      max-width: 285px;
+      margin: 34px auto 14px auto;
+      padding: 17px 0;
+      background-color: #009856;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.3em;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.11);
+      transition: background 0.22s;
+      text-align: center;
+    }
+    .buy-btn:hover {
+      background: #0262ac;
+    }
+    .course-section {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .course-price {
+      font-size: 2.1em;
+      font-weight: 700;
+      color: #ed1c24;
+      margin: 6px 0 18px 0;
+    }
+    .features-list {
+      text-align: left;
+      margin: 0 auto 22px auto;
+      max-width: 600px;
+      color: #09376a;
+      font-size: 1.1em;
+    }
+    .features-list li {
+      margin-bottom: 10px;
+    }
+    .social-proof, .contact-section {
+      margin-bottom: 22px;
+      text-align: center;
+    }
+    .testimonials {
+      background:#f1f8ff;
+      border-left: 5px solid #0262ac;
+      margin: 0 auto 10px auto;
+      padding: 18px 14px;
+      border-radius: 8px;
+      max-width: 630px;
+    }
+    .contact-section p, .contact-section a {
+      font-size: 1.2em;
+      color: #0262ac;
+    }
+    #qr-modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0; top: 0; width: 100vw; height: 100vh;
+      background: rgba(0,0,0,0.76);
+      align-items: center;
+      justify-content: center;
+    }
+    #qr-inner {
+      background: #fff;
+      padding: 25px 24px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 335px;
+      margin: auto;
+    }
+    #qr-inner img {
+      max-width: 260px;
+      margin-bottom: 17px;
+      border-radius: 7px;
+      box-shadow: 0 2px 18px rgba(0,0,0,0.13);
+    }
+    .close-modal {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 8px 23px;
+      background: #ed1c24;
+      color: #fff;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 1em;
+    }
+    #payment-success {
+      display: none;
+      color: green;
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-top: 12px;
+    }
+    @media (max-width: 800px) {
+      .container { padding: 18px 7px; }
+      .title { font-size: 2em; }
+      #qr-inner { padding: 10px 3vw; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="font-size:1.35em; letter-spacing:2px; font-weight:700;">Centurion Defence Academy</div>
+    <nav>
+      <a href="#about">About SSB</a>
+      <a href="#course">Course</a>
+      <a href="#social-proof">Reviews</a>
+      <a href="#faqs">FAQs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="title" id="course">SSB Online Coaching</div>
+    <div class="subtitle">Your Gateway to Defence Forces: Achieve SSB Success from Anywhere in India</div>
+    <div class="course-section">
+      <div class="course-price">₹3299/-</div>
+      <ul class="features-list">
+        <li>Comprehensive SSB Interview preparation modules & real-time personal mentoring</li>
+        <li>Live classes by SSB professionals, group tasks, psychological guidance, and officer-like quality development</li>
+        <li>Mock interviews, performance feedback, and detailed study material</li>
+        <li>Flexible online access, recorded lectures, and doubt-clearing sessions</li>
+      </ul>
+      <button class="buy-btn" onclick="showQr()">Buy Course</button>
+    </div>
+
+    <div class="social-proof" id="social-proof">
+      <div class="testimonials">
+        <b>1000+ selections</b>. Hear it from toppers:<br>
+        <i>"Cleared my SSB in first attempt! The online mentorship was a game-changer." - Priya (Recommended for IMA)</i><br>
+        <i>"Live guidance and precise practice from Centurion made all the difference." - Ashutosh (AFCAT-SSB Selected)</i>
+      </div>
+      <span style="color:#ffae00; font-size:1.1em;">★ 4.9/5 average rating | Trusted by aspirants nationwide</span>
+    </div>
+
+    <div class="contact-section" id="contact">
+      <div style="font-size:1.2em; font-weight:700;">Contact Us</div>
+      <p>
+        Phone: <a href="tel:+919876543210">+91 98765-43210</a><br>
+        Email: <a href="mailto:info@centurionacademy.in">info@centurionacademy.in</a><br>
+        Address: 2nd Floor, Main Market, Lucknow, Uttar Pradesh, India
+      </p>
+    </div>
+  </div>
+
+  <!-- QR Payment Modal -->
+  <div id="qr-modal">
+    <div id="qr-inner">
+      <h2>Pay ₹3299</h2>
+      <img src="./WhatsApp Image 2025-11-03 at 18.38.45_871fc7f5.jpg" alt="Google Pay QR" />
+      <div style="font-size:1.2em; color:#0262ac;">UPI: suyashp271@okaxis</div>
+      <p style="font-size:1em; color:#555;">Scan with any UPI app to pay.</p>
+      <div id="payment-success">✔ Payment Successful!</div>
+      <button class="close-modal" onclick="closeQr()">Close</button>
+    </div>
+  </div>
+
+  <script>
+    let paymentTimeout = null;
+
+    function showQr() {
+      document.getElementById('qr-modal').style.display = 'flex';
+      document.getElementById('payment-success').style.display = 'none';
+      paymentTimeout = setTimeout(function() {
+        document.getElementById('payment-success').style.display = 'block';
+      }, 60000); // Show after 1 minute
+    }
+    function closeQr() {
+      document.getElementById('qr-modal').style.display = 'none';
+      clearTimeout(paymentTimeout);
+    }
+    // Responsive modal for smaller screens
+    window.addEventListener('resize', function() {
+      if(window.innerWidth < 600) {
+        document.getElementById('qr-inner').style.width = "90vw";
+      } else {
+        document.getElementById('qr-inner').style.width = "";
+      }
+    });
+  </script>
+</body>
+</html>
