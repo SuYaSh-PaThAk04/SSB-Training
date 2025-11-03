@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "builds": [{ "src": "SSB_Training.html", "use": "@vercel/static" }],
+  "routes": [{ "src": "/(.*)", "dest": "./SSB_Training.html" }]
+}
